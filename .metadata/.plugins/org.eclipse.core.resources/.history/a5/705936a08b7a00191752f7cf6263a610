@@ -1,0 +1,11 @@
+package br.com.fiap.resource;
+
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.WebResource;
+
+public class IotResource {
+	private Client client = Client.create();
+	private WebResource resource;
+	private static final String url = "http://localhost:8080/02-oit/rest/iot";
+
+}

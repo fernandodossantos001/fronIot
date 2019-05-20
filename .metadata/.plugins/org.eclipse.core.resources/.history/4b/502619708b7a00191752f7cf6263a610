@@ -1,0 +1,8 @@
+package br.com.fiap.resource;
+
+import com.sun.jersey.api.client.Client;
+
+public class IotResource {
+	private Client client = Client.create();
+
+}

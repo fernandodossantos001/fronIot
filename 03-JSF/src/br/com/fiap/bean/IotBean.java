@@ -1,0 +1,41 @@
+package br.com.fiap.bean;
+
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+
+import br.com.fiap.resource.IotResource;
+import br.com.fiap.to.IotTo;
+
+public class IotBean {
+	
+	private IotTo iot ;
+	
+	private IotResource resource;
+	
+	@PostConstruct
+	public void init() {
+		resource = new IotResource();
+	}
+
+
+	
+	public List<IotTo> listar(){
+		return resource.listas();
+	}
+
+
+
+	public IotTo getIot() {
+		return iot;
+	}
+
+
+
+	public void setIot(IotTo iot) {
+		this.iot = iot;
+	}
+	
+	
+
+}

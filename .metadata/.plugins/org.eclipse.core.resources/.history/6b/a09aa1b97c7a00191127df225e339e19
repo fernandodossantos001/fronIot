@@ -1,0 +1,12 @@
+package br.com.fiap.singleton;
+
+import javax.persistence.EntityManager;
+
+public class EntityManagerFactorySingleton {
+	private EntityManager em;
+	
+	private EntityManager() {
+		
+	}
+
+}

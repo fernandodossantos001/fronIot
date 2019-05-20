@@ -1,0 +1,25 @@
+package br.com.fiap.resource;
+
+import java.awt.PageAttributes.MediaType;
+import java.util.List;
+
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.WebResource;
+
+import br.com.fiap.to.IotTo;
+
+public class IotResource {
+	private Client client = Client.create();
+	private WebResource resource;
+	private static final String url = "http://localhost:8080/02-oit/rest/iot";
+	private ClientResponse resp;
+	
+	public List<IotTo> listas (){
+		resource = client.resource(url);
+		resource.accept(javax.ws.rs.core.MediaType.APPLICATION_JSON)
+		return null;
+		
+	}
+
+}

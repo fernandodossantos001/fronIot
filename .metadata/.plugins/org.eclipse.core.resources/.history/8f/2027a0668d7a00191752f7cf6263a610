@@ -1,0 +1,11 @@
+package br.com.fiap.bean;
+
+import br.com.fiap.resource.IotResource;
+import br.com.fiap.to.IotTo;
+
+public class IotBean {
+	
+	private IotTo iot ;
+	private IotResource resource;
+
+}

@@ -1,0 +1,48 @@
+package br.com.fiap.dao.dao;
+
+import java.util.List;
+
+import br.com.fiap.dao.GenericDAO;
+import br.com.fiap.excepiton.CodigoInvalidoException;
+import br.com.fiap.excepiton.CommitException;
+import br.com.fiap.to.IotTo;
+
+public class IotDAO implements GenericDAO<IotTo, Integer>{
+
+	@Override
+	public void cadastrar(IotTo entidade) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void alterar(IotTo entidade) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public IotTo buscar(Integer id) throws CodigoInvalidoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void remover(Integer id) throws CodigoInvalidoException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void commit() throws CommitException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<IotTo> listar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

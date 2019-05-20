@@ -1,0 +1,8 @@
+package br.com.fiap.dao.dao;
+
+import br.com.fiap.dao.GenericDAO;
+import br.com.fiap.to.IotTo;
+
+public class IotDAO implements GenericDAO<IotTo, Integer>{
+
+}

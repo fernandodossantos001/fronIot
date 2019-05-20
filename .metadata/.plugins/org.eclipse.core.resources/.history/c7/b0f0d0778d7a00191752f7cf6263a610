@@ -1,0 +1,16 @@
+package br.com.fiap.bean;
+
+import java.util.List;
+
+import br.com.fiap.resource.IotResource;
+import br.com.fiap.to.IotTo;
+
+public class IotBean {
+	
+	private List<IotTo> iot ;
+	
+	private IotResource resource;
+	
+	
+
+}

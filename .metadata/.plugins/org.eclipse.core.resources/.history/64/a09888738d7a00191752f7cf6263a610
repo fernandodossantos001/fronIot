@@ -1,0 +1,14 @@
+package br.com.fiap.bean;
+
+import br.com.fiap.resource.IotResource;
+import br.com.fiap.to.IotTo;
+
+public class IotBean {
+	
+	private List<http://localhost:8080/02-oit/rest/iot> iot ;
+	
+	private IotResource resource;
+	
+	
+
+}
