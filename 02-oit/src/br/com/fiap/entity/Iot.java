@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="T_IOT")
-@SequenceGenerator(name="iot",sequenceName="TSQ_IOT",allocationSize=1)
+@SequenceGenerator(name="iot",sequenceName="T_SQ_IOT",allocationSize=1)
 public class Iot {
 	@Id
 	@GeneratedValue(generator="iot",strategy=GenerationType.SEQUENCE)
@@ -18,15 +18,15 @@ public class Iot {
 	@Column(name="ds_humidade")
 	private String humidade;
 	@Column(name="ds_temperatura")
-	private String temperatuda;
+	private String temperatura;
 	
 	public Iot() {
 		
 	}
 	
-	public Iot( String humidade, String temperatuda) {
+	public Iot( String humidade, String temperatura) {
 		this.humidade = humidade;
-		this.temperatuda = temperatuda;
+		this.temperatura = temperatura;
 	}
 	public int getId() {
 		return id;
@@ -40,13 +40,16 @@ public class Iot {
 	public void setHumidade(String humidade) {
 		this.humidade = humidade;
 	}
-	public String getTemperatuda() {
-		return temperatuda;
+
+	public String getTemperatura() {
+		return temperatura;
 	}
-	public void setTemperatuda(String temperatuda) {
-		this.temperatuda = temperatuda;
+
+	public void setTemperatura(String temperatura) {
+		this.temperatura = temperatura;
 	}
-	
+
+
 	
 
 }

@@ -21,7 +21,12 @@ public class IotBean {
 
 	
 	public List<IotTo> listar(){
-		return resource.listas();
+		List<IotTo> listas = resource.listas();
+		for(IotTo iot : listas) {
+			System.out.println(iot.getHumidade());
+			System.out.println(iot.getTemperatura());
+		}
+		return listas;
 	}
 
 

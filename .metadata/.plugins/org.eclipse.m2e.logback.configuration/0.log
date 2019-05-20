@@ -1228,3 +1228,135 @@ org.eclipse.core.runtime.CoreException: Launch configuration Test references clo
 2019-05-19 20:35:18,459 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
 2019-05-19 20:35:18,460 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-05-19 20:35:18,461 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 20:39:07,385 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:39:07,385 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 20:39:07,387 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:39:07,387 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 20:39:35,852 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:39:35,852 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 20:39:35,854 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:39:35,854 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 20:41:40,441 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:41:40,443 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 20:41:40,444 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:41:40,445 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 20:43:18,876 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:43:18,876 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 20:43:18,877 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:43:18,878 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 20:43:21,623 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:43:21,624 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 20:43:21,625 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:43:21,626 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 20:46:10,906 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:46:10,907 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 20:46:10,908 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:46:10,909 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 20:46:32,234 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:46:32,235 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 20:46:32,236 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:46:32,236 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 20:47:06,458 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:47:06,458 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 20:47:06,459 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:47:06,460 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 20:47:27,735 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:47:27,736 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 20:47:27,737 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:47:27,737 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 20:47:40,105 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:47:40,106 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 20:47:40,107 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:47:40,107 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 20:47:49,666 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:47:49,666 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 20:47:49,668 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:47:49,668 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 20:47:59,384 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:47:59,384 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 20:47:59,386 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:47:59,386 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 20:48:47,066 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:48:47,067 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 20:48:47,068 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 20:48:47,069 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 21:11:49,239 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:11:49,240 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 21:11:49,241 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:11:49,241 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 21:12:22,092 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:12:22,092 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 21:12:22,093 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:12:22,094 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 21:15:25,413 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:15:25,414 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 21:15:25,415 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:15:25,415 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 21:15:40,740 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:15:40,741 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 21:15:40,742 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:15:40,742 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 21:17:13,241 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:17:13,241 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 21:17:13,242 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:17:13,243 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 21:17:17,574 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:17:17,574 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 21:17:17,575 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:17:17,575 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 21:17:44,550 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:17:44,550 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 21:17:44,551 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:17:44,551 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 21:17:47,602 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:17:47,602 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 21:17:47,603 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:17:47,603 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 21:17:53,353 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:17:53,354 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 21:17:53,355 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:17:53,356 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 21:18:31,849 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:18:31,849 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 21:18:31,850 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:18:31,850 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 21:20:01,241 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:20:01,418 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/main/resources
+2019-05-19 21:20:01,482 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:20:01,483 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/test/resources
+2019-05-19 21:23:14,842 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:23:14,845 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/main/resources
+2019-05-19 21:23:14,875 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:23:14,875 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/test/resources
+2019-05-19 21:23:27,682 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:23:27,683 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/main/resources
+2019-05-19 21:23:27,684 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:23:27,684 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/test/resources
+2019-05-19 21:23:38,122 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:23:38,123 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/main/resources
+2019-05-19 21:23:38,124 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:23:38,124 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/test/resources
+2019-05-19 21:23:43,238 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:23:43,238 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/main/resources
+2019-05-19 21:23:43,239 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:23:43,240 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/test/resources
+2019-05-19 21:25:27,256 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:25:27,259 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/main/resources
+2019-05-19 21:25:27,260 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:25:27,260 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/test/resources
+2019-05-19 21:25:48,403 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:25:48,403 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/main/resources
+2019-05-19 21:25:48,404 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:25:48,405 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/test/resources
+2019-05-19 21:25:54,800 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:25:54,800 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/main/resources
+2019-05-19 21:25:54,801 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:25:54,801 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/test/resources
+2019-05-19 21:26:19,826 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:26:19,826 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/main/resources
+2019-05-19 21:26:19,828 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:26:19,828 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/test/resources
+2019-05-19 21:27:33,607 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:27:33,609 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 21:27:33,610 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 21:27:33,611 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources

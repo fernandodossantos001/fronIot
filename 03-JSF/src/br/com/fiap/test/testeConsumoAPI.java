@@ -12,7 +12,7 @@ public class testeConsumoAPI {
 		List<IotTo> listas =  resource .listas();
 		
 		for(IotTo iot : listas) {
-			System.out.println(iot.getTemperatuda());
+			System.out.println(iot.getTemperatura());
 		}
 		
 	}

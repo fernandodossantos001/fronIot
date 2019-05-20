@@ -3,17 +3,17 @@ package br.com.fiap.to;
 public class IotTo {
 	private int id;
 	private String humidade;
-	private String temperatuda;
+	private String temperatura;
 	
 	public IotTo() {
 		
 	}
 	
-	public IotTo(int id, String humidade, String temperatuda) {
+	public IotTo(int id, String humidade, String temperatura) {
 		super();
 		this.id = id;
 		this.humidade = humidade;
-		this.temperatuda = temperatuda;
+		this.temperatura = temperatura;
 	}
 	public int getId() {
 		return id;
@@ -27,11 +27,13 @@ public class IotTo {
 	public void setHumidade(String humidade) {
 		this.humidade = humidade;
 	}
-	public String getTemperatuda() {
-		return temperatuda;
+
+	public String getTemperatura() {
+		return temperatura;
 	}
-	public void setTemperatuda(String temperatuda) {
-		this.temperatuda = temperatuda;
+
+	public void setTemperatura(String temperatura) {
+		this.temperatura = temperatura;
 	}
 	
 	
