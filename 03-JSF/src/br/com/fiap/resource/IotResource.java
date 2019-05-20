@@ -21,6 +21,7 @@ public class IotResource implements Serializable{
 	private static final long serialVersionUID = 1L;
 	private  Client client = Client.create();
 	private WebResource resource;
+	//urll 
 	private static final String url = "http://localhost:8080/02-oit/rest/iot";
 	private ClientResponse resp;
 	private IotTo[] iot;

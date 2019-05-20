@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.sun.jersey.api.client.Client"/>
+<fullyQualifiedTypeName name="com.sun.jersey.api.client.WebResource"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.awt.MediaTracker"/>
+<fullyQualifiedTypeName name="java.awt.PageAttributes.MediaType"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="com.sun.jersey.api.client.ClientResponse"/>
+<fullyQualifiedTypeName name="br.com.fiap.to.IotTo"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.databind.type.ResolvedRecursiveType"/>
+<fullyQualifiedTypeName name="br.com.fiap.resource.IotResource"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
+<fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.IotDAO"/>
+<fullyQualifiedTypeName name="br.com.fiap.dao.impl.IotDAOImpl"/>
+</qualifiedTypeNameHistroy>

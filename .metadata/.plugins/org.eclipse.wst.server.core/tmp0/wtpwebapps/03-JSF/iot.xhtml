@@ -7,26 +7,30 @@
 	xmlns:f="http://xmlns.jcp.org/jsf/core">
 <h:head>
 	<title>Consultando dados API Rest</title>
+	<h:outputStylesheet library="css" name="bootstrap.min.css" />
 </h:head>
 
 <h:body>
-	
- 
-	<h:dataTable value="#{iotBean.listar()}" var="iots" styleClass="table">
-		
-		<h:column>
-			<f:facet name="header">Humidade</f:facet>
-			#{iost.humidade}
-		
-		</h:column>
-		
-		<h:column>
-			<f:facet name="header">Temperatura</f:facet>
-			#{iost.temperatura}
-		</h:column>
-		
-		
-	</h:dataTable>
- 
+
+	<div class="container">
+
+		<h:dataTable value="#{iotBean.listar()}" var="iot" styleClass="table">
+
+			<h:column>
+				<f:facet name="header">Humidade</f:facet>
+
+				<h:outputLabel>#{iot.humidade}</h:outputLabel>
+
+			</h:column>
+
+			<h:column>
+				<f:facet name="header">Temperatura</f:facet>
+				<h:outputLabel>#{iot.temperatura}</h:outputLabel>
+			</h:column>
+
+
+		</h:dataTable>
+	</div>
+
 </h:body>
 </html>

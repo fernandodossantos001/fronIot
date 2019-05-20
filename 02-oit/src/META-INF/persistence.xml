@@ -12,10 +12,10 @@
 			 -->
 			<property name="hibernate.hbm2ddl.auto" value="update"/>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.Oracle12cDialect"/>
-			<property name="javax.persistence.jdbc.user" value="dev"/>
+			<property name="javax.persistence.jdbc.user" value="rm80577"/>
 			<property name="javax.persistence.jdbc.password" value="120197"/>
-			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
-<!-- 			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl"/> -->
+<!-- 			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:xe"/> -->
+ 			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl"/> 
 		</properties>	
 	</persistence-unit>
 
