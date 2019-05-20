@@ -16,7 +16,7 @@
 		
 		<h:column>
 			<f:facet name="header">Humidade</f:facet>
-			#{iost.humidade}
+			<h:outputLabel>#{iost.temperatura}</h:outputLabel>
 		
 		</h:column>
 		

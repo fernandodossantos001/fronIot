@@ -16,7 +16,7 @@
 		
 		<h:column>
 			<f:facet name="header">Humidade</f:facet>
-			#{iost.humidade}
+			13
 		
 		</h:column>
 		
