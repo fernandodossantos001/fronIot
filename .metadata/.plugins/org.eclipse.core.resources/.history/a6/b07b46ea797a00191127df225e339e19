@@ -1,5 +1,0 @@
-package br.com.fiap.excepiton;
-
-public class CommitException extends Exception {
-
-}

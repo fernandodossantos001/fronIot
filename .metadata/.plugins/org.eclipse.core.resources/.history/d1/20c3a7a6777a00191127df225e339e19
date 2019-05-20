@@ -1,8 +1,0 @@
-package br.com.fiap.resource;
-
-public class Iot {
-	private int id;
-	private String humidade;
-	private String temperatuda;
-
-}

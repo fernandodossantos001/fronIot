@@ -1569,3 +1569,12 @@ org.eclipse.core.runtime.CoreException: Launch configuration Test references clo
 2019-05-19 22:26:45,356 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/main/resources
 2019-05-19 22:26:45,361 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-05-19 22:26:45,361 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/test/resources
+2019-05-19 22:36:54,102 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 22:36:54,115 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/main/resources
+2019-05-19 22:36:54,118 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 22:36:54,119 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/02-oit/src/test/resources
+2019-05-19 22:36:55,471 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 22:36:55,473 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/main/resources
+2019-05-19 22:36:55,476 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-05-19 22:36:55,477 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/developr/Documents/nac/iot/03-JSF/src/test/resources
+2019-05-19 22:36:58,158 [Worker-21] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
