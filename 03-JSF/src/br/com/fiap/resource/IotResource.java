@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import javax.faces.bean.ManagedBean;
+import javax.ws.rs.core.MediaType;
 
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
@@ -12,7 +13,6 @@ import com.sun.jersey.api.client.WebResource;
 
 import br.com.fiap.to.IotTo;
 
-@ManagedBean
 public class IotResource implements Serializable{
 	
 	/**
@@ -37,6 +37,16 @@ public class IotResource implements Serializable{
 		iot = resp.getEntity(IotTo[].class);
 		return  Arrays.asList(iot);
 		
+	}
+	
+	public String ligar(String ligado) {
+		resource = client.resource(url);
+		resp = resource.accept(MediaType.TEXT_PLAIN).post(ClientResponse.class,ligado);
+		if(resp.getStatus() != 200) {
+			return null;
+		}
+		
+		return resp.getEntity(String.class);
 	}
 
 }

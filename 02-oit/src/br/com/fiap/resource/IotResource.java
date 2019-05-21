@@ -37,15 +37,19 @@ public class IotResource {
 	
 	@POST
 	@Consumes(MediaType.TEXT_PLAIN)
-	public Response ligar(String status, @Context UriInfo url) {
+	@Produces(MediaType.TEXT_PLAIN)
+	public String ligar(String status) {
+//		
+//		UriBuilder builder = url.getAbsolutePathBuilder();
+//		builder.path(status);
+//		
+//		System.out.println(status);
+//
+//		// HTTP Status Code : 201 Created
+//		return Response.created(builder.build()).build();
 		
-		UriBuilder builder = url.getAbsolutePathBuilder();
-		builder.path(status);
 		
-		System.out.println(status);
-
-		// HTTP Status Code : 201 Created
-		return Response.created(builder.build()).build();
+		return status;
 		
 	}
 //	@POST

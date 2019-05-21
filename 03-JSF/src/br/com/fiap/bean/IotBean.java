@@ -32,6 +32,11 @@ public class IotBean {
 		}
 		return listas;
 	}
+	
+	public String ligar() {
+		 String status = resource.ligar("ligado");
+		 return status;
+	}
 
 
 

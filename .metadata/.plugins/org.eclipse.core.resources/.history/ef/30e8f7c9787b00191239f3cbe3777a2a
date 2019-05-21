@@ -1,0 +1,54 @@
+package br.com.fiap.bean;
+
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+
+import br.com.fiap.resource.IotResource;
+import br.com.fiap.to.IotTo;
+
+@ManagedBean
+@RequestScoped
+public class IotBean {
+	
+	private IotTo iot ;
+	
+	private IotResource resource;
+	
+	@PostConstruct
+	public void init() {
+		resource = new IotResource();
+	}
+
+
+	
+	public List<IotTo> listar(){
+		List<IotTo> listas = resource.listas();
+		for(IotTo iot : listas) {
+			System.out.println(iot.getHumidade());
+			System.out.println(iot.getTemperatura());
+		}
+		return listas;
+	}
+	
+	public String ligar() {
+		return resource.ligar("ligar");
+	}
+
+
+
+	public IotTo getIot() {
+		return iot;
+	}
+
+
+
+	public void setIot(IotTo iot) {
+		this.iot = iot;
+	}
+	
+	
+
+}

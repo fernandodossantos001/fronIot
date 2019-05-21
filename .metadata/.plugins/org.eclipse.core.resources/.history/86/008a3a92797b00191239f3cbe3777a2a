@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+	<title>Consultando dados API Rest</title>
+	<h:outputStylesheet library="css" name="bootstrap.min.css" />
+</h:head>
+
+<h:body>
+
+	<div class="container">
+
+		<h:dataTable value="#{iotBean.listar()}" var="iot" styleClass="table">
+
+			<h:column>
+				<f:facet name="header">Humidade</f:facet>
+
+				<h:outputLabel>#{iot.humidade}</h:outputLabel>
+
+			</h:column>
+
+			<h:column>
+				<f:facet name="header">Temperatura</f:facet>
+				<h:outputLabel>#{iot.temperatura}</h:outputLabel>
+			</h:column>
+			
+		</h:dataTable>
+		<h:form>
+			<h:commandButton value="Ligar"
+			action="#{iotBean.ligar()}" styleClass="btn btn-primary"></h:commandButton>
+			<h:outputLabel>#{iotBean.ligar()}</h:outputLabel>
+		</h:form>
+	</div>
+
+</h:body>
+</html>
