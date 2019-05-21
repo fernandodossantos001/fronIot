@@ -17,6 +17,10 @@ public class IotBean {
 	
 	private IotResource resource;
 	
+	private String status;
+	
+	private String statusBeep;
+	
 	@PostConstruct
 	public void init() {
 		resource = new IotResource();
@@ -26,16 +30,30 @@ public class IotBean {
 	
 	public List<IotTo> listar(){
 		List<IotTo> listas = resource.listas();
-		for(IotTo iot : listas) {
-			System.out.println(iot.getHumidade());
-			System.out.println(iot.getTemperatura());
+		
+		if(listas.get(0).getLed()!=0 ) {
+			setStatus("desligar");
+		}else {
+			setStatus("ligar");
+		}
+		
+		if( listas.get(0).getBuzzer()!=0) {
+			setStatusBeep("desligar");
+		}else {
+			setStatusBeep("ligar");
+			
 		}
 		return listas;
 	}
 	
-	public String ligar() {
-		 String status = resource.ligar("ligado");
-		 return status;
+	public void ligarLed() {
+		
+		resource.ligarLed(status);
+	}
+	
+	public void ligarBeep() {	
+		System.out.println(statusBeep);
+		resource.ligarBuzzer(statusBeep);
 	}
 
 
@@ -48,6 +66,30 @@ public class IotBean {
 
 	public void setIot(IotTo iot) {
 		this.iot = iot;
+	}
+
+
+
+	public String getStatus() {
+		return status;
+	}
+
+
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+
+
+	public String getStatusBeep() {
+		return statusBeep;
+	}
+
+
+
+	public void setStatusBeep(String statusBeep) {
+		this.statusBeep = statusBeep;
 	}
 	
 	

@@ -22,9 +22,14 @@ public class IotResource implements Serializable{
 	private  Client client = Client.create();
 	private WebResource resource;
 	//urll 
-	private static final String url = "http://localhost:8080/02-oit/rest/iot";
+	private static final String url = "http://10.3.8.30:1880/arduino/api/dados";
+	private static final String urlLed = "http://10.3.8.30:1880/led/";
+	private static final String urlBuzzer = "http://10.3.8.30:1880/buzzer/";
+	
+//	private static final String url = "http://localhost:8080/02-oit/rest/iot";
 	private ClientResponse resp;
-	private IotTo[] iot;
+	private IotTo iot;
+	
 	
 	public List<IotTo> listas (){
 		resource = client.resource(url);
@@ -34,18 +39,23 @@ public class IotResource implements Serializable{
 			return null;
 		}
 		
-		iot = resp.getEntity(IotTo[].class);
+		iot = resp.getEntity(IotTo.class);
+		
+		
 		return  Arrays.asList(iot);
 		
 	}
 	
-	public String ligar(String ligado) {
-		resource = client.resource(url);
-		resp = resource.accept(MediaType.TEXT_PLAIN).post(ClientResponse.class,ligado);
-		if(resp.getStatus() != 200) {
-			return null;
-		}
-		
+	public String ligarLed(String status) {
+		resource = client.resource(urlLed+status);
+		resp = resource.accept(MediaType.TEXT_PLAIN).get(ClientResponse.class);
+		return resp.getEntity(String.class);
+	}
+	
+	public String ligarBuzzer(String status) {
+		resource = client.resource(urlBuzzer+status);
+		System.out.println(urlBuzzer+status);
+		resp = resource.accept(MediaType.TEXT_PLAIN).get(ClientResponse.class);
 		return resp.getEntity(String.class);
 	}
 
