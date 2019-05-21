@@ -24,10 +24,11 @@ public class Iot {
 		
 	}
 	
-	public Iot( String humidade, String temperatura) {
+	public Iot(String humidade, String temperatura) {
 		this.humidade = humidade;
 		this.temperatura = temperatura;
 	}
+	
 	public int getId() {
 		return id;
 	}

@@ -1,0 +1,45 @@
+package br.com.fiap.resource;
+
+
+import java.util.List;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.UriBuilder;
+import javax.ws.rs.core.UriInfo;
+
+import br.com.fiap.dao.IotDAO;
+import br.com.fiap.dao.impl.IotDAOImpl;
+import br.com.fiap.entity.Iot;
+import br.com.fiap.singleton.EntityManagerFactorySingleton;
+
+@Path("/iot")
+public class IotResource {
+	private IotDAO dao ;
+	
+	public IotResource() {
+		dao = new IotDAOImpl(EntityManagerFactorySingleton.getInstance().createEntityManager());
+	}
+	
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Iot> busca(){
+		return dao.listar();
+	}
+	
+	@POST
+	@Consumes(MediaType.TEXT_PLAIN)
+	public Response ligar(String status,UriInfo url) {
+		System.out.println(status);
+		
+		UriBuilder builder = url.getAbsolutePathBuilder();
+		builder.path(status);
+		return null;
+		
+	}
+}
