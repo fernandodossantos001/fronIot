@@ -15,18 +15,26 @@ public class Iot {
 	@Id
 	@GeneratedValue(generator="iot",strategy=GenerationType.SEQUENCE)
 	private int id;
-	@Column(name="ds_humidade")
-	private String humidade;
-	@Column(name="ds_temperatura")
-	private String temperatura;
+	@Column(name="ds_hum")
+	private int hum;
+	@Column(name="ds_luz")
+	private int luz;
+	@Column(name="ds_buzzer")
+	private int buzzer;
+	@Column(name="ds_led")
+	private int led;
+	
+
+	
+	public Iot(int hum, int luz, int buzzer, int led) {
+		this.hum = hum;
+		this.luz = luz;
+		this.buzzer = buzzer;
+		this.led = led;
+	}
 	
 	public Iot() {
 		
-	}
-	
-	public Iot(String humidade, String temperatura) {
-		this.humidade = humidade;
-		this.temperatura = temperatura;
 	}
 	
 	public int getId() {
@@ -35,22 +43,30 @@ public class Iot {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getHumidade() {
-		return humidade;
+	public int getHum() {
+		return hum;
 	}
-	public void setHumidade(String humidade) {
-		this.humidade = humidade;
+	public void setHum(int hum) {
+		this.hum = hum;
 	}
-
-	public String getTemperatura() {
-		return temperatura;
+	public int getLuz() {
+		return luz;
 	}
-
-	public void setTemperatura(String temperatura) {
-		this.temperatura = temperatura;
+	public void setLuz(int luz) {
+		this.luz = luz;
 	}
-
-
+	public int getBuzzer() {
+		return buzzer;
+	}
+	public void setBuzzer(int buzzer) {
+		this.buzzer = buzzer;
+	}
+	public int getLed() {
+		return led;
+	}
+	public void setLed(int led) {
+		this.led = led;
+	}
 	
 
 }

@@ -1,0 +1,41 @@
+package br.com.fiap.to;
+
+public class IotTo {
+	private int id;
+	private String humidade;
+	private String temperatura;
+	
+	public IotTo() {
+		
+	}
+	
+	public IotTo(int id, String humidade, String temperatura) {
+		super();
+		this.id = id;
+		this.humidade = humidade;
+		this.temperatura = temperatura;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getHumidade() {
+		return humidade;
+	}
+	public void setHumidade(String humidade) {
+		this.humidade = humidade;
+	}
+
+	public String getTemperatura() {
+		return temperatura;
+	}
+
+	public void setTemperatura(String temperatura) {
+		this.temperatura = temperatura;
+	}
+	
+	
+
+}

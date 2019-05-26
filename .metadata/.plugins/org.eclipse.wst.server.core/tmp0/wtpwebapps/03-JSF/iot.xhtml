@@ -8,6 +8,8 @@
 <h:head>
 	<title>Consultando dados API Rest</title>
 	<h:outputStylesheet library="css" name="bootstrap.min.css" />
+	<meta http-equiv="refresh" 
+	content="01"/>
 </h:head>
 
 <h:body>
@@ -19,20 +21,24 @@
 			<h:column>
 				<f:facet name="header">Humidade</f:facet>
 
-				<h:outputLabel>#{iot.humidade}</h:outputLabel>
+				<h:outputLabel>#{iot.hum}</h:outputLabel>
 
 			</h:column>
 
 			<h:column>
-				<f:facet name="header">Temperatura</f:facet>
-				<h:outputLabel>#{iot.temperatura}</h:outputLabel>
+				<f:facet name="header">Luminosidade</f:facet>
+				<h:outputLabel>#{iot.luz}</h:outputLabel>
 			</h:column>
 			
 		</h:dataTable>
 		<h:form>
-			<h:commandButton value="Ligar"
-			action="#{iotBean.ligar()}" styleClass="btn btn-primary"></h:commandButton>
-			<h:outputLabel>Status : #{iotBean.ligar()}</h:outputLabel>
+			
+			<h:commandButton value="#{iotBean.status}  Led"
+			action="#{iotBean.ligarLed()}" styleClass="btn btn-primary m-1"></h:commandButton>
+		
+			<h:commandButton value="#{iotBean.statusBeep}  Beep"
+			action="#{iotBean.ligarBeep()}" styleClass="btn btn-primary "></h:commandButton>
+			
 		</h:form>
 	</div>
 

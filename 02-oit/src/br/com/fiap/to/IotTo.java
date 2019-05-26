@@ -1,40 +1,71 @@
 package br.com.fiap.to;
 
-public class IotTo {
-	private int id;
-	private String humidade;
-	private String temperatura;
+import java.io.Serializable;
+
+public class IotTo implements Serializable {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private int hum;
+	private int luz;
+	private int buzzer;
+	private int led;
 	
 	public IotTo() {
 		
 	}
-	
-	public IotTo(int id, String humidade, String temperatura) {
+
+	public IotTo(int hum, int luz, int buzzer, int led) {
 		super();
-		this.id = id;
-		this.humidade = humidade;
-		this.temperatura = temperatura;
-	}
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
-	public String getHumidade() {
-		return humidade;
-	}
-	public void setHumidade(String humidade) {
-		this.humidade = humidade;
+		this.hum = hum;
+		this.luz = luz;
+		this.buzzer = buzzer;
+		this.led = led;
 	}
 
-	public String getTemperatura() {
-		return temperatura;
+	public int getHum() {
+		return hum;
 	}
 
-	public void setTemperatura(String temperatura) {
-		this.temperatura = temperatura;
+	public void setHum(int hum) {
+		this.hum = hum;
 	}
+
+	public int getLuz() {
+		return luz;
+	}
+
+	public void setLuz(int luz) {
+		this.luz = luz;
+	}
+
+	public int getBuzzer() {
+		return buzzer;
+	}
+
+	public void setBuzzer(int buzzer) {
+		this.buzzer = buzzer;
+	}
+
+	public int getLed() {
+		return led;
+	}
+
+	public void setLed(int led) {
+		this.led = led;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	
+	
+	
+	
+	
+	
 	
 	
 

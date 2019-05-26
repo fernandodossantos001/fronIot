@@ -26,7 +26,7 @@ public class IotResource implements Serializable{
 	private static final String urlLed = "http://10.3.8.30:1880/led/";
 	private static final String urlBuzzer = "http://10.3.8.30:1880/buzzer/";
 	
-//	private static final String url = "http://localhost:8080/02-oit/rest/iot";
+	private static final String urlLocal = "http://localhost:8080/02-oit/rest/iot";
 	private ClientResponse resp;
 	private IotTo iot;
 	
@@ -43,6 +43,20 @@ public class IotResource implements Serializable{
 		
 		
 		return  Arrays.asList(iot);
+		
+	}
+	public List<IotTo> listar (){
+		resource = client.resource(urlLocal);
+		resp = resource.accept(javax.ws.rs.core.MediaType.APPLICATION_JSON).get(ClientResponse.class);
+		
+		if(resp.getStatus() != 200) {
+			return null;
+		}
+		
+		 IotTo[] iots = resp.getEntity(IotTo[].class);
+		
+		
+		return  Arrays.asList(iots);
 		
 	}
 	

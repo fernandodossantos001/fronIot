@@ -10,11 +10,12 @@ public class Test {
 	public static void main(String argsp[]) {
 		IotDAO dao = new IotDAOImpl(EntityManagerFactorySingleton.getInstance().createEntityManager());
 		
-		Iot iot = new Iot("80%", "23º");
-		Iot iot2 = new Iot("40%", "28º");
-		Iot iot3 = new Iot("95%", "10º");
-		Iot iot4 = new Iot("10%", "35º");
-		dao.cadastrar(iot);
+		Iot iot = new Iot(56, 80, 0, 0);
+		Iot iot2 = new Iot(65, 100, 1, 0);
+		Iot iot3 = new Iot(100, 10, 0, 1);
+		Iot iot4 = new Iot(70, 40, 1, 1);
+
+				dao.cadastrar(iot);
 		dao.cadastrar(iot2);
 		dao.cadastrar(iot3);
 		dao.cadastrar(iot4);
